@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Otomanopee One", sans-serif;
+}
+.head {
+  background: transparent;
+  width: auto;
+  height: 0;
+}
+.father_div {
+  width: 30%;
+  height: 500px;
+  background: #fff;
+  transform: translateX(110%) translateY(10%);
+  border-radius: 20px;
+}
+.exit_img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.exit_img img {
+  width: 100%;
+  object-fit: contain;
+}
+.bottom_text {
+  width: 100%;
+  border-radius: 20px;
+  height: 60%;
+  padding: 20px;
+}
+.bottom_text p {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+.no_exit {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 10px;
+  transform: translateY(0%);
+  background: rgb(103, 103, 209);
+  border-radius: 20px;
+  transition: 0.6s;
+  color: #fff;
+  cursor: pointer;
+}
+.no_exit2:hover {
+  width: 90%;
+  transform: translateX(7%);
+}
+.no_exit:hover {
+  width: 90%;
+  transform: translateX(7%);
+}
+.no_exit2 {
+  transition: 0.6s;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  border-radius: 20px;
+  transform: translateY(0%);
+  background: transparent;
+  border: 2px solid rgb(83, 83, 204);
+  color: rgb(83, 83, 204);
+}
