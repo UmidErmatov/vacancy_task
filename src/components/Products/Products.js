@@ -89,11 +89,6 @@ function Products() {
           />
         </div>
       </div>
-      <div className='row'>
-        <div className='col'>
-          <p>PS: 'https://face.ox-sys.com/variations' ushbu manzildan data ololmadim. </p>
-        </div>
-      </div>
       <Modal
         open={open}
         onClose={handleClose}
