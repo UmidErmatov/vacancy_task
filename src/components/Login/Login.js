@@ -35,14 +35,14 @@ const SignIn = () => {
           <img src={person} alt='left_logo.png' className="left_logo" />
         </div>
         <div className="right_div">
-          <p className="admin_text">Admin Login</p>
+          <p className="admin_text">Admin Login (username: fortest, password: fortest1)</p>
           <div className="input_group">
             <PersonIcon className="person_icon" />
              <input type="text" name='username' placeholder='Username (fortest)'  onChange={handleChange1} />
           </div>
           <div className="input_group2">
             <LockIcon className="person_icon" />
-             <input type="text" name='password' placeholder='Password (fortest1)'  onChange={handleChange2}/>
+             <input type="password" name='password' placeholder='Password (fortest1)'  onChange={handleChange2}/>
           </div>
 
             <button onClick={handleLogin} className="button1" type="submit">
