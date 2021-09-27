@@ -35,7 +35,7 @@ const SignIn = () => {
           <img src={person} alt='left_logo.png' className="left_logo" />
         </div>
         <div className="right_div">
-          <p className="admin_text">Admin Login (username: fortest, password: fortest1)</p>
+          <p className="admin_text">Admin Login</p>
           <div className="input_group">
             <PersonIcon className="person_icon" />
              <input type="text" name='username' placeholder='Username (fortest)'  onChange={handleChange1} />
