@@ -7,6 +7,8 @@
 }
 .head {
   background: transparent;
+  width: auto;
+  height: auto;
   max-width: 950px;
   margin: auto;
   padding: auto;
@@ -14,23 +16,27 @@
   justify-content: center;
   align-items: center;
 }
+
 .father_div {
+  width: 100%;
   max-width: 280px;
   height: 500px;
   background: #fff;
   border-radius: 20px;
 }
+
 .exit_img {
   width: 100%;
-  height: 260px;
+  height: 50%;
   border-radius: 20px;
   padding: 20px;
 }
+
 .exit_img img {
   width: 100%;
   object-fit: contain;
-  /* transform: translateX(40%); */
 }
+
 .bottom_text {
   width: 100%;
   border-radius: 20px;
